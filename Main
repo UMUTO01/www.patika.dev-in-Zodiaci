@@ -1,0 +1,63 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter Number");
+        double a = scan.nextDouble();
+        Zodiac(a);
+
+
+    }
+    public static void Zodiac(double BornDate){
+        double NewDate = BornDate%12;
+        if(NewDate == 0){
+            System.out.print("Zodiaca göre Maymun Burçsunuz");
+        }
+        if(NewDate == 1){
+            System.out.print("Zodiaca göre Horoz Burçsunuz");
+
+        }
+        if(NewDate ==2){
+            System.out.print("Zodiaca göre Köpek Burçsunuz");
+        }
+        if(NewDate == 3){
+            System.out.print("Zodiaca göre Domuz Burçsunuz");
+
+        }
+        if(NewDate == 4){
+            System.out.print("Zodiaca göre Fare Burçsunuz");
+
+        }
+        if(NewDate ==5){
+            System.out.print("Zodiaca göre Öküz Burçsunuz");
+
+        }
+        if(NewDate ==6){
+            System.out.print("Zodiaca göre Kaplan Burçsunuz");
+
+        }
+        if(NewDate ==7){
+            System.out.print("Zodiaca göre Tavşan Burçsunuz");
+        }
+        if(NewDate == 8){
+            System.out.print("Zodiaca göre Ejderya Burçsunuz");
+
+        }
+        if(NewDate == 9){
+            System.out.print("Zodiaca göre Yılan Burçsunuz");
+
+        }
+        if(NewDate ==10){
+            System.out.print("Zodiaca göre At Burçsunuz");
+
+        }
+        if(NewDate ==11){
+            System.out.print("Zodiaca göre Koyun Burçsunuz");
+
+        }
+    }
+}
